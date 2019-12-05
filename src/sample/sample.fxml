@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="674.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="UploadButton" layoutX="308.0" layoutY="14.0" mnemonicParsing="false" text="Upload" />
+      <ImageView fx:id="ImageView" fitHeight="247.0" fitWidth="444.0" layoutX="114.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ImageView_Output" fitHeight="262.0" fitWidth="444.0" layoutX="114.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="Method2Button" layoutX="281.0" layoutY="324.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="112.0" text="Method 2 " />
+      <Button fx:id="Method1Button" layoutX="114.0" layoutY="325.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="112.0" text="Method 1" />
+      <Button fx:id="Method3Button" layoutX="446.0" layoutY="325.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="112.0" text="Method 3" />
+   </children>
+</AnchorPane>
